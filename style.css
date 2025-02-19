@@ -39,8 +39,8 @@ nav svg{
 }
 .logo{
   height: 2rem;
-  margin-top: 2rem;
-  margin-right: 33rem;
+  margin-left: 2rem;
+  margin-top: -3rem;
   }
 .header-text{
   display: inline;
@@ -117,20 +117,24 @@ nav svg{
 .blog-cards{
   display: flex;
   margin-left: 2rem;
-  justify-content: space-around;
+  gap: 5rem;
+  align-items: center;
+  justify-content: flex-start;
 }
+
 .blog-heading{
   margin-left: 5rem;
-}
+  }
 .blog-heading h1{
   margin-top: 1rem;
-  font-size: 1.6rem;
+  font-size: 1.5rem;
 }
 
 .blog-card{
   display: flex;
-  justify-content: space-around;
-  margin-top: 1rem;
+  gap: 1rem;
+  justify-content: center;
+  margin: 1rem 1.5rem;
   box-shadow: 0 4px 8px rgba(0,0,0, 0.1);
 }
 
@@ -138,18 +142,40 @@ nav svg{
   margin-top: 1rem;
   margin-left: 2rem;
   }
+  .blog-image img{
+    height: 200px;
+  }
 
 .blog-content h6{
-  margin-top: 2rem;
+  font-size: 0.5rem;
+  margin-top: 0.8rem;
+}
+.blog-content h3{
+  font-size: 0.8rem;
+  margin-top: 10px;
+}
+.blog-content small{
+  font-size: 0.6rem;
+  margin-top: 10px;
 }
 
 .blog-bottom{
   margin-top: 1rem;
 }
 
-.blog-author{
+.blog-author b{
   margin-top: 1rem;
   margin-right: 1rem;
+  margin-top: 1rem;
   display: flex;
-  flex-direction: row-reverse;
+  font-size: 0.8rem;
+}
+
+.faq-section{
+  background-color: lavender;
+}
+
+.faq-content{
+  display: inline;
+  justify-content: space-between;
 }
