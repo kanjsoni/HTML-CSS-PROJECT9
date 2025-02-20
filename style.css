@@ -210,3 +210,80 @@ nav svg{
 .faq-image img{
   height: 250px;
 }
+.download-section{
+  display: flex;
+  justify-content: space-between;
+  margin:  3rem;
+
+}
+.download-content{
+  color: black;
+  text-align: center;
+}
+.download-content h1{
+  font-size: 1.5rem;
+}
+.download-content span{
+  font-size: 1rem;
+}
+.download-email {
+  padding: 5px 60px;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: rgb(232, 232, 249);
+}
+.download-email input{
+  background: none;
+  border: none;
+  font-size: 0.7rem;
+  margin-left: -2rem;
+  
+}
+.download-email button{
+  align-items: left;
+  padding: 3px 8px;
+  border-radius: 25px;
+  border: 2px solid black;
+  background-color: rgb(86, 7, 213);
+  color: white;
+  margin-left: 3rem;
+}
+
+.footer-section{
+  display: flex;
+  justify-content: space-between;
+  background-color: blue;
+}
+
+.footer-logo{
+  margin-top: 2rem;
+  margin-left: 2rem;
+  height: 2rem;
+}
+.list{
+  display: flex;
+  justify-content: flex-start;
+  margin: 2rem;
+  gap: 30px;
+  list-style: none;
+  color: #fff;
+  font-size: 10px;
+  }
+.footer-right1{
+  display: inline;
+  justify-content: flex-end;
+}
+.footer-right{
+  display: flex;
+  gap: 30px;
+  margin:  2rem 3rem;
+  height: 2rem;
+}
+.logos-list{
+  margin:  1rem 3rem;
+  display: flex;
+  gap:35px;
+  color: white;
+  list-style: none;
+  font-size: 10px;
+}
